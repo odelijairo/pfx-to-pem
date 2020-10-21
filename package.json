@@ -1,0 +1,35 @@
+{
+  "name": "pfx-to-pem",
+  "version": "1.0.0",
+  "description": "Convert .pfx to .pem files (key, cert or both) with simple OpenSSL bindings",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/odelijairo/pfx-to-pem"
+  },
+  "keywords": [
+    "pem",
+    "pfx",
+    "convert",
+    "key",
+    "certificate",
+    "openssl"
+  ],
+  "author": "Jairo Odeli Junior <odelijairo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/odelijairo/pfx-to-pem/issues"
+  },
+  "homepage": "https://github.com/odelijairo/pfx-to-pem",
+  "dependencies": {
+    "async": "^3.2.0",
+    "x509": "^0.3.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.0"
+  }
+}
