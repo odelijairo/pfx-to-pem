@@ -1,6 +1,6 @@
 {
   "name": "pfx-to-pem",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert .pfx to .pem files (key, cert or both) with simple OpenSSL bindings",
   "main": "index.js",
   "scripts": {
