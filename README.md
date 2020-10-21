@@ -1,5 +1,9 @@
 # pfx-to-pem
 
+<!-- [START badges] -->
+[![NPM pfx-to-pem package](https://img.shields.io/npm/v/pfx-to-pem.svg)](https://npmjs.org/package/pfx-to-pem)
+<!-- [END badges] -->
+
 Converts .pfx to .pem files (key, cert or both) with simple OpenSSL bindings.
 
 ```javascript
