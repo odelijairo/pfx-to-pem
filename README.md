@@ -21,7 +21,6 @@ Will return an object:
 ```json
 {
     "attributes": {
-        "version": 2,
         "subject": {
             "countryName": "",
             "organizationName": "",
@@ -39,19 +38,8 @@ Will return an object:
         "serial": "",
         "notBefore": "",
         "notAfter": "",
-        "signatureAlgorithm": "",
-        "fingerPrint": "",
         "altNames": [],
-        "extensions": {
-            "subjectAlternativeName": "",
-            "basicConstraints": "",
-            "authorityKeyIdentifier": "",
-            "keyUsage": "",
-            "certificatePolicies": "",
-            "cRLDistributionPoints": "",
-            "extendedKeyUsage": "",
-            "authorityInformationAccess": ""
-        }
+        "ocspList": []
     },
     "certificate": "",
     "key": ""
