@@ -26,7 +26,7 @@
   "homepage": "https://github.com/odelijairo/pfx-to-pem",
   "dependencies": {
     "async": "^3.2.0",
-    "x509": "^0.3.4"
+    "x509.js": "^1.0.0"
   },
   "devDependencies": {
     "chai": "^4.2.0",
